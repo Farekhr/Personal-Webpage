@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>BJT-Based Amplifier Circuit</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Ryan Farekh</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="AboutMe.html">About Me</a></li>
+							<li><a href="FeaturedProjects.html">Featured Projects</a></li>
+							<li><a href="CircuitDesigns.html">Circuit Designs</a></li>
+							<li><a href="FirstYearProjets.html">First Year Projects</a></li>
+							<li><a href="ArduinoProjects.html">Arduino Projects</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+                
+                <div id="main">
+                    <div class="inner">
+                        <h1>BJT-Based Amplifier Circuit</h1>
+                        <p>
+                            <strong>Project Overview</strong>
+                        </p>
+                        <p>
+                            <strong>Introduction:</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Title:</strong> BJT-Based Amplifier Circuit</li>
+                            <li><strong>Duration:</strong> March 2024 - March 2024</li>
+                            <li><strong>Role:</strong> Project Engineer</li>
+                            <li><strong>Technologies Used:</strong> BJT Transistors, Resistors, LT Spice, Waveforms Software, Analog Discovery 2</li>
+                        </ul>
+                        <p>
+                            <strong>Summary:</strong>
+                            <br>
+                            In this project, I explored the design and implementation of a Bipolar Junction Transistor (BJT) based common collector amplifier. The primary objective was to achieve a linear amplifier design that operates effectively under low current conditions. The choice between using a BJT and a MOSFET was pivotal; BJTs were selected due to their superior performance in low current scenarios and better linearity.
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Key Decisions and Implementation:</strong>
+                        <ol>
+                            
+                            <li><strong>Transistor Choice:</strong> Selected BJT over MOSFET for better low current performance and linearity.</li>
+                            <li><strong>Circuit Topology:</strong> Chose the common collector configuration because it provided a voltage gain close to one, which was necessary for our design requirements.</li>
+                            <li><strong>Simulation and Testing:</strong> Utilized LTspice for circuit simulations to model the BJT and analyze circuit behavior. Waveforms software and Analog Discovery 2 were employed for hardware testing to validate simulation results and measure real-world performance.</li>
+                            
+                        </ol>
+                        <p style="margin-bottom: 5px;">
+                            <strong>Technologies and Tools:</strong>
+                        </p>
+                        <ul>
+                            <li><strong>LT Spice:</strong> Used for detailed circuit simulation and schematic design.</li>
+                            <li><strong>Waveforms Software:</strong> Utilized for managing digital inputs and real-time output measurement.</li>
+                            <li><strong>Analog Discovery 2:</strong> Deployed for generating digital signals and oscilloscope functionality to observe and adjust the circuit’s performance dynamically</li>
+                            
+                        </ul>
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Project Achievements</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Effective Low Current Design:</strong> Demonstrated that BJTs require significantly less current than MOSFETs for similar applications, making them more practical for our design.</li>
+                            <li><strong>Optimized Gain:</strong> Achieved an amplifier gain of approximately 0.965, close to the theoretical expectation of 0.97.</li>
+                            <li><strong>Validation:</strong> Confirmed simulation models with practical tests, showing over 95% accuracy in gain and linearity measurements.</li>
+                            
+                        </ul>
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Gallery/Visuals</strong>
+                        </p>
+
+                        <p style="margin-bottom: 5px;">
+                            LTSpice Circuit Diagram:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/LTSpice.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Logic Analyzer Output using Waveforms Software:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/Logic.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Timing Measurement with Analog Discovery 2:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/Timing.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Challenges and Solutions</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Challenge:</strong> Ensuring the BJT operates linearly in a design constrained by low current availability.</li>
+                            <li><strong>Solution:</strong> Through detailed simulations and iterative testing, optimized the circuit design to maximize linearity while operating within current limitations.</li>
+                        </ul>
+
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Future Directions</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Higher Performance Variants:</strong> Explore designs that might allow even lower current operation without sacrificing performance.</li>
+                            <li><strong>Integration into Complex Systems:</strong> Consider integrating the amplifier into more complex electronic systems to demonstrate its utility in practical applications.</li>
+                            
+                        </ul>
+                    </div>
+
+                    <p style="margin-bottom: 5px;">
+                        
+                    </p>
+                    <div class="video-container">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/_RvxoTmdKcA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        
+                        <section>
+                            <h2>Follow</h2>
+                            <ul class="icons">
+                                
+                                
+                                
+                                <li><a href="https://www.linkedin.com/in/ryan-farekh/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+                                <li><a href="https://github.com/Farekhr" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                
+                            </ul>
+                    </div>
+                </footer>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    
+                    <section>
+                        <h2>Contact Me</h2>
+                        <header>
+                            
+                            <p>Email: rayanfarekh@gmail.com</p>
+                            <p>Phone: (905)-617-2287</p>
+                        </header>
+                            
+                            
+                            
+                    </section>
+                    <ul class="copyright">
+                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+        </div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>

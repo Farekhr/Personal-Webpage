@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Voltage Controlled Switches</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Ryan Farekh</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="AboutMe.html">About Me</a></li>
+							<li><a href="FeaturedProjects.html">Featured Projects</a></li>
+							<li><a href="CircuitDesigns.html">Circuit Designs</a></li>
+							<li><a href="FirstYearProjets.html">First Year Projects</a></li>
+							<li><a href="ArduinoProjects.html">Arduino Projects</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+                
+                <div id="main">
+                    <div class="inner">
+                        <h1>Voltage Controlled Switches</h1>
+                        <p>
+                            <strong>Project Overview</strong>
+                        </p>
+                        <p>
+                            <strong>Introduction:</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Title:</strong> Voltage Controlled Switches</li>
+                            <li><strong>Duration:</strong> February 2024 - March 2024</li>
+                            <li><strong>Role:</strong> Project Engineer</li>
+                            <li><strong>Technologies Used:</strong> MOSFETs, LT Spice, Waveforms Software, Analog Discovery 2</li>
+                        </ul>
+                        <p>
+                            <strong>Summary:</strong>
+                            <br>
+                            This project explored the design, simulation, and testing of two types of electronic switches using a combination of p-type and n-type MOSFETs. The primary goal was to understand the behaviors of ideal switches versus non-ideal switches under various conditions and to optimize the design for bidirectionality, low resistance when on, and high resistance when off.
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Design Implementation and Testing (Switch 1):</strong>
+                        <ol>
+                            
+                            <li><strong>Circuit Features:</strong> Utilizes three voltage sources, two n-type and a p-type MOSFETs, and a 10k ohm resistor.</li>
+                            <li><strong>Behavior Analysis:</strong> Focus on verifying bidirectionality and the switch's ability to handle different voltages, with maximum voltage tests conducted up to 10V using the AD2.</li>
+                            <li><strong>Results:</strong> Demonstrated that the switch operates with zero resistance when on and a very high resistance when off, confirming the expected ideal switch behaviors.</li>
+                            
+                        </ol>
+                        <p style="margin-bottom: 5px;">
+                            <strong>Design Implementation and Testing (Switch 2):</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Circuit Features:</strong> Similar setup to Switch Type 1 but with modifications to allow for output diversion to a secondary output when the switch is off.</li>
+                            <li><strong>Behavior Analysis:</strong> Tested for the same parameters as Switch Type 1, with additional focus on the switch's response to control voltages and its impact on secondary outputs.</li>
+                            <li><strong>Results:</strong> Confirmed that control actions lead to expected high or low outputs, validating the circuit's design and functionality under specified conditions.</li>
+                            
+                        </ul>
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Project Achievements</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Bidirectional Switch Design:</strong> Successfully designed switches that operate bidirectionally, allowing current to flow in both directions with minimal resistance when on.</li>
+                            <li><strong>High and Low Resistance States:</strong> Demonstrated high resistance when off and zero resistance when on, confirming the switches' ideal behavior.</li>
+                            <li><strong>Control Voltage Responsiveness:</strong> Validated that the switches respond accurately to control voltages, achieving expected high and low outputs reliably.</li>
+                            <li><strong>Real-World Validation:</strong> Confirmed simulation results with practical tests, showing that the switches perform as designed under real-world conditions.</li>
+                        </ul>
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Gallery/Visuals</strong>
+                        </p>
+
+                        <p style="margin-bottom: 5px;">
+                            Switch 1 Schematic:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/Switch1.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Switch 1 Real-Life Circuit:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/Switch1Real.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Switch 2 Schematic:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/Switch2.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Switch 2 Real-Life Circuit:
+                        </p>
+                        
+                        <span class="image main" style="max-width: 75%;"><img src="images/Switch2Real.jpg" alt="System Diagram" /></span>
+
+                        <p style="margin-bottom: 5px;">
+                            Voltage and Current Measurements for Both Switches
+                        </p>
+                    
+                        <span class="image main" style="max-width: 75%;"><img src="images/Measurements.jpg" alt="System Diagram" /></span>
+                        
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Challenges and Solutions</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Challenge:</strong> Ensuring the switch designs provided both bidirectionality and the ability to handle specified voltage ranges effectively.</li>
+                            <li><strong>Solution:</strong> Iterative design adjustments using simulations in LTspice, followed by rigorous testing with Waveforms software and AD2 to ensure real-world operation aligned with theoretical expectations.</li>
+                        </ul>
+
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Future Directions</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Higher Voltage Testing:</strong> Plan to test the switches with voltages exceeding the 10V limit of the AD2, using more robust testing equipment.</li>
+                            <li><strong>Design Optimization:</strong> Continuous improvement of switch designs to reduce non-idealities and enhance performance across various applications.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        
+                        <section>
+                            <h2>Follow</h2>
+                            <ul class="icons">
+                                
+                                
+                                
+                                <li><a href="https://www.linkedin.com/in/ryan-farekh/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+                                <li><a href="https://github.com/Farekhr" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                
+                            </ul>
+                    </div>
+                </footer>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    
+                    <section>
+                        <h2>Contact Me</h2>
+                        <header>
+                            
+                            <p>Email: rayanfarekh@gmail.com</p>
+                            <p>Phone: (905)-617-2287</p>
+                        </header>
+                            
+                            
+                            
+                    </section>
+                    <ul class="copyright">
+                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+        </div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>

@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AC to DC Power Supply</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Ryan Farekh</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="AboutMe.html">About Me</a></li>
+							<li><a href="FeaturedProjects.html">Featured Projects</a></li>
+							<li><a href="CircuitDesigns.html">Circuit Designs</a></li>
+							<li><a href="FirstYearProjets.html">First Year Projects</a></li>
+							<li><a href="ArduinoProjects.html">Arduino Projects</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+                
+                <div id="main">
+                    <div class="inner">
+                        <h1>AC to DC Power Supply</h1>
+                        <p>
+                            <strong>Project Overview</strong>
+                        </p>
+                        <p>
+                            <strong>Introduction:</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Title:</strong> AC to DC Power Supply</li>
+                            <li><strong>Duration:</strong> January 2024 - February 2024</li>
+                            <li><strong>Role:</strong> Project Engineer</li>
+                            <li><strong>Technologies Used:</strong> Breadboard, Electronic components LT Spice, Waveforms Software, Analog Discovery 2</li>
+                        </ul>
+                        <p>
+                            <strong>Summary:</strong>
+                            <br>
+                            The goal of this project was to design and implement a DC power supply capable of delivering 10mA at approximately 3V. This involved converting 120V AC voltage to a stable 3V DC output using a circuit that incorporated a full wave rectifier and a capacitor filter. Key components of the circuit included diodes for rectification and a capacitor to smooth the output voltage.
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Design Implementation and Testing:</strong>
+                        <ol>
+                            
+                            <li><strong>Rectifier:</strong> Utilized a bridge configuration with four diodes to convert AC to DC, ensuring that both halves of the AC sine wave contributed to the output.</li>
+                            <li><strong>Filter:</strong> Employed a 100 micro-Farad capacitor in parallel with the load to reduce voltage ripple and stabilize the DC output.</li>
+                            <li><strong>Transformer Simulation:</strong> Simulated a step-down transformer in LTSpice due to safety concerns, using an input voltage of 4.65V to achieve desired output after theoretical and trial adjustments.</li>
+                            
+                        </ol>
+                        
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Project Achievements</strong>
+                            </p>
+                            <ul>
+                                <li><strong>Stable DC Output:</strong> Successfully designed a power supply that converts 120V AC to a stable 3V DC with minimal ripple.</li>
+                                <li><strong>Effective Rectification:</strong> Implemented a full wave rectifier that efficiently converts both halves of the AC sine wave to DC.</li>
+                                <li><strong>Optimized Filtering:</strong> Utilized a capacitor filter to significantly reduce voltage ripple, achieving a smooth DC output.</li>
+                                <li><strong>Real-World Validation:</strong> Confirmed the theoretical design with practical tests using Analog Discovery 2, achieving consistent and reliable results.</li>
+                            </ul>
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Gallery/Visuals</strong>
+                        </p>
+
+                        <p style="margin-bottom: 5px;">
+                            Circuit Schematic:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 50%;"><img src="images/CircuitSchematic.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Real-World Implementation Using AD2 and Breadboard:
+                        </p>
+                    
+                        <span class="image main" style="max-width: 50%;"><img src="images/CircuitSchematicReal.jpg" alt="System Diagram" /></span>
+                        
+                        <p style="margin-bottom: 5px;">
+                            Measured Voltage and Current through the Load:
+                        </p>
+
+                        <span class="image main" style="max-width: 50%;"><img src="images/CircuitSchematicRealMeasure.jpg" alt="System Diagram" /></span>
+                    
+                        
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Challenges and Solutions</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Challenge:</strong> Achieving a stable and low ripple DC output without a physical transformer.</li>
+                            <li><strong>Solution:</strong> Optimized the capacitor value and simulated transformer characteristics in LTSpice, followed by real-world validation using AD2 which supports a maximum of 10V output.</li>
+                        </ul>
+
+                        <p style="margin-bottom: 5px;">
+                            <strong>Measurement and Analysis</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Load Resistance:</strong> Used a load resistance of 300 ohms with a design current of 10mA.</li>
+                            <li><strong>Capacitance Choice:</strong> Selected the highest available capacitance to minimize ripple effectively.</li>
+                            <li><strong>Real-world Measurements:</strong> Utilized AD2 for precise real-world measurements, achieving a stable output close to theoretical expectations with minimal discrepancies.</li>
+                        </ul>
+                        
+                        <p style="margin-bottom: 5px;">
+                            <strong>Future Directions</strong>
+                        </p>
+                        <ul>
+                            <li><strong>Enhancement of Filter Design:</strong> Explore higher capacitance values or additional filtering techniques to further smooth the output voltage.</li>
+                            <li><strong>Integration of a Regulator:</strong> Consider incorporating a voltage regulator to enhance output stability and compensate for variations in load or input voltage.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        
+                        <section>
+                            <h2>Follow</h2>
+                            <ul class="icons">
+                                
+                                
+                                
+                                <li><a href="https://www.linkedin.com/in/ryan-farekh/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+                                <li><a href="https://github.com/Farekhr" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                
+                            </ul>
+                    </div>
+                </footer>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    
+                    <section>
+                        <h2>Contact Me</h2>
+                        <header>
+                            
+                            <p>Email: rayanfarekh@gmail.com</p>
+                            <p>Phone: (905)-617-2287</p>
+                        </header>
+                            
+                            
+                            
+                    </section>
+                    <ul class="copyright">
+                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+        </div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
