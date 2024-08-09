@@ -153,8 +153,9 @@ body {
             }
 
             .timeline-container::after {
-                left: 50%;
-                top: 10px;
+                width: 0px;
+                height: 0px;
+                border: 0px;
             }
 
             .timeline::after {
