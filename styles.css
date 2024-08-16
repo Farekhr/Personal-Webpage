@@ -141,6 +141,56 @@ body {
             text-decoration: underline;
         }
 
+        /* Style for the dropdown menu within the menu section */
+        #menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu ul li {
+            position: relative;
+            display: block;
+        }
+
+        /* Ensure all dropdowns are the same width as their parent menu item */
+        #menu ul li a {
+            text-decoration: none;
+            display: block;
+            padding: 8px 16px;
+            background-color: #585858; /* Ensure consistency in the background */
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #menu ul .dropdown {
+            display: none;
+            position: relative;
+            background-color: grey; /* Set dropdown background to grey */
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            width: 115%; /* Ensure dropdown is the same width as its parent */
+        }
+
+        #menu ul .dropdown li {
+            display: block;
+            width: 100%; /* Ensure submenu items fill the dropdown width */
+        }
+
+        #menu ul .dropdown li a {
+            padding: 8px 16px;
+            white-space: nowrap;
+        }
+
+        /* Ensure the dropdown shifts subsequent items downward */
+        #menu ul li:hover > .dropdown {
+            display: block;
+            position: static; /* Allow the dropdown to push other content down */
+        }
+
+
+
+
         @media screen and (max-width: 768px) {
             .timeline-container {
                 width: 100%;
