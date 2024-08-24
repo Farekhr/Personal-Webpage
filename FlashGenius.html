@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Inventory Manager Pro</title>
+		<title>FlashGenius</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -83,7 +79,7 @@
                 
                 <div id="main">
                     <div class="inner">
-                        <h1>Inventory Manager Pro</h1>
+                        <h1>FlashGenius</h1>
                         <p>
                             <strong>Project Overview</strong>
                         </p>
@@ -91,75 +87,64 @@
                             <strong>Introduction:</strong>
                         </p>
                         <ul>
-                            <li><strong>Title:</strong> Inventory Manager Pro</li>
-                            <li><strong>Duration:</strong> July 2024 - August 2024</li>
+                            <li><strong>Title:</strong> FlashGenius</li>
+                            <li><strong>Completed:</strong> August 2024</li>
                             <li><strong>Role:</strong> Full Stack Developer</li>
-                            <li><strong>Team:</strong> Solo Project</li>
+                            <li><strong>Team:</strong> Ryan (me), Kirit (Full Stack Developer), Vraj (Full Stack Developer)</li>
                             
                             
                         </ul>
                         <p>
                             <strong>Summary:</strong>
                             <br>
-                            Inventory Manager Pro is a sophisticated inventory management system designed to provide a seamless experience for tracking and categorizing items. Leveraging cutting-edge web development technologies, this application ensures efficient and user-friendly management of inventory.
+                            FlashGenius is an AI-powered flashcard application designed to revolutionize how users study and retain information. By using cutting-edge artificial intelligence, FlashGenius generates personalized flashcards that adapt to each user’s learning pace and preferences. This app is perfect for students, educators, and professionals who want to optimize their study sessions and improve knowledge retention.
                         
                             <p style="margin-bottom: 5px;">
                                 <strong>Features:</strong>
                             </p>
                             <p><strong>User Authentication:</strong></p>
                             <ul>
-                                <li><strong>Secure Login & Registration:</strong> Users can securely register and log in using Firebase Authentication, ensuring their data is protected.</li>
-                                <li><strong>Password Recovery:</strong> Provides functionality for users to recover their accounts in case they forget their passwords.</li>
+                                <li><strong>Secure Login & Registration:</strong> Implemented using Clerk for user authentication, allowing users to securely register and log in to access their personalized flashcards.</li>
+                                <li><strong>Password Recovery:</strong> Provides functionality for users to recover their accounts in case they forget their passwords, ensuring uninterrupted access to their study materials.</li>
                             </ul>
-                            <p><strong>Inventory Management:</strong></p>
+                            <p><strong>AI Flashcard Functionality:</strong></p>
                             <ul>
-                                <li><strong>Add, Edit, and Delete Items:</strong> Users can easily manage their inventory items with intuitive controls for adding new items, editing existing ones, and deleting those no longer needed.</li>
-                                <li><strong>Categorization:</strong> Items can be organized into customizable categories, allowing users to group similar items together for better organization.</li>
+                                <li><strong>AI-Generated Flashcards:</strong> Utilizes OpenAI’s advanced models to create personalized flashcards tailored to each user's study needs and preferences.</li>
                             </ul>
-                            <p><strong>Real-time Data Synchronization:</strong></p>
+                            <p><strong>Flashcard Storage:</strong></p>
                             <ul>
-                                <li><strong>Instant Updates:</strong> Changes made to the inventory are reflected immediately across all user sessions, thanks to Firebase’s real-time database capabilities.</li>
-                                <li><strong>Offline Support:</strong> The application provides offline support, ensuring users can continue to manage their inventory even without an internet connection. Changes are synced once the connection is restored.</li>
+                                <li><strong>Reliable Flashcard Storage:</strong> Uses Firebase to store flashcards securely in the cloud, allowing users to access their study materials anytime and from any device. This ensures data is always backed up and synchronized across devices.</li>
+                                
                             </ul>
                             <p><strong>User Interface:</strong></p>
                             <ul>
                                 <li><strong>Responsive Design:</strong> The application is fully responsive, providing an optimal user experience on both desktop and mobile devices.</li>
-                                <li><strong>Dashboard Overview:</strong> A comprehensive dashboard gives users a quick overview of their inventory, including total items, categories, and recent activity.</li>
+                                <li><strong>Custom Sign-in/Registration Page:</strong> A comprehensive dashboard that gives users quick access to their flashcards, study plans, and performance metrics.</li>
                             </ul>
 
                         <p style="margin-bottom: 5px;">
                             <strong>Key Decisions and Implementation:</strong>
                         <ol>
                             
-                            <li><strong>User Interface:</strong> Designed an intuitive and user-friendly interface using React.js and Next.js.</li>
-        
-                            
-                            <li><strong>Version Control:</strong> Used Git for version control, ensuring smooth collaboration and code management.</li>
-                            
+                            <li><strong>User Interface:</strong> Developed using React and Material-UI for a clean and user-friendly experience across all devices.</li>
+                            <li><strong>AI Integration:</strong> Integrated OpenAI’s API to generate adaptive flashcards that cater to each user's unique learning style.</li>
+                            <li><strong>Backend Development:</strong> Firebase was utilized for real-time database management and reliable storage of flashcards, Clerk was used for secure user authentication.</li>
+                            <li><strong>Payment Processing:</strong> Stripe was integrated to handle secure transactions for premium features, ensuring a smooth and reliable payment experience.</li>
                             
                         </ol>
                         <p style="margin-bottom: 5px;">
                             <strong>Technologies and Tools:</strong>
                         </p>
                         <ul>
-                            <li><strong>Next.js:</strong> Utilized for server-side rendering and enhancing performance, providing a fast and responsive user experience.</li>
-                            <li><strong>React.js:</strong> Employed for building dynamic and interactive user interfaces, ensuring component-based architecture for maintainability.</li>
-                            
-                            <li><strong>Firebase:</strong> Adopted for its robust and scalable backend services, including real-time database, authentication. This allows for efficient data storage, secure user authentication, and instant updates across the application.</li>
+                            <li><strong>React:</strong> For building dynamic user interfaces.</li>
+                            <li><strong>Material-UI:</strong> For designing a sleek and intuitive user interface.</li>
+                            <li><strong>Firebase:</strong> Adopted for its robust and scalable backend services, including real-time database and reliable flashcard storage.</li>
+                            <li><strong>OpenAI:</strong> Utilized for its advanced AI capabilities to generate personalized flashcards.</li>
+                            <li><strong>Stripe:</strong> For secure and reliable payment processing.</li>
+                            <li><strong>Clerk:</strong> For seamless and secure user authentication.</li>
                             <li><strong>Git:</strong> Implemented for version control to track changes and collaborate effectively.</li>
                             <li><strong>Vercel:</strong> Utilized vercel to host and deploy the website for public use.</li>
 
-                        </ul>
-                        
-                        
-                        <p style="margin-bottom: 5px;">
-                            <strong>Project Achievements</strong>
-                        </p>
-                        <ul>
-                            <li><strong>Positive User Feedback:</strong> High user satisfaction with the platform's ease of use and relevance of suggestions.</li>
-                            
-                            
-                            
                         </ul>
                         
                         <p style="margin-bottom: 5px;">
@@ -170,34 +155,33 @@
                             Landing Page:
                         </p>
                     
-                        <span class="image main" style="max-width: 75%;"><img src="images/InvLanding.jpg" alt="System Diagram" /></span>
+                        <span class="image main" style="max-width: 75%;"><img src="images/FlashcardLanding.jpg" alt="System Diagram" /></span>
                         
                         <p style="margin-bottom: 5px;">
                             Login/Register Page:
                         </p>
 
-                        <span class="image main" style="max-width: 75%;"><img src="images/InvLogin.jpg" alt="System Diagram" /></span>
-                        
+                        <span class="image main" style="max-width: 75%;"><img src="images/FlashcardLogin.jpg" alt="System Diagram" /></span>
+                    
                         <p style="margin-bottom: 5px;">
-                            Main Iventory Page:
+                            Flashcard Inventory Page:
                         </p>
                     
-                        <span class="image main" style="max-width: 75%;"><img src="images/MainInv.jpg" alt="System Diagram" /></span>
-                        
-                        <p style="margin-bottom: 5px;">
-                            Adding/Editing Items:
-                        </p>
+                        <span class="image main" style="max-width: 75%;"><img src="images/FlashcardInventory.jpg" alt="System Diagram" /></span>
 
-                        <span class="image main" style="max-width: 75%;"><img src="images/InvAdd.jpg" alt="System Diagram" /></span>
-                        
-                        
+                        <p style="margin-bottom: 5px;">
+                            Flashcard Generation Page:
+                        </p>
                     
+                        <span class="image main" style="max-width: 75%;"><img src="images/FlashcardGenerate.jpg" alt="System Diagram" /></span>
+
                         
+
                         <ul>
-                            <li><strong>Challenge:</strong> Ensuring real-time data synchronization across the application.</li>
-                            <li><strong>Solution:</strong> Leveraged Firebase’s real-time database capabilities to provide instant updates, ensuring that all users see the most current data without needing to refresh the page.</li>
-                            <li><strong>Challenge:</strong> Designing a user-friendly interface that accommodates a variety of items.</li>
-                            <li><strong>Solution:</strong> Used Material-UI components to create a clean and intuitive layout, incorporating user feedback to refine and enhance the user experience.</li>
+                            <li><strong>Challenge:</strong> Ensuring seamless, real-time synchronization of flashcards and study progress across multiple devices.</li>
+                            <li><strong>Solution:</strong> Utilized Firebase’s real-time database capabilities to provide secure, instant access to flashcards ensuring users can continue their studies from any device without interruption.</li>
+                            <li><strong>Challenge:</strong> Designing an intuitive and engaging user interface that enhances the learning process while being accessible on both desktop and mobile platforms.</li>
+                            <li><strong>Solution:</strong> Employed React and Material-UI to develop a modern, responsive design that provides a seamless user experience across all devices, making it easy for users to navigate and interact with the app.</li>
                             
                         </ul>
 
@@ -207,20 +191,20 @@
                             <strong>Future Directions</strong>
                         </p>
                         <ul>
-                            <li><strong>Reporting:</strong> Adding features for generating detailed inventory reports, providing insights into item usage, stock levels, and trends.</li>
-                            <li><strong>Mobile App:</strong> Developing a dedicated mobile application for both Android and iOS platforms, ensuring users can manage their inventory on the go.</li>
-                            <li><strong>Advanced Search:</strong> Implementing advanced search functionalities, including filters and sorting options, to help users quickly locate specific items within their inventory.</li>
-                            <li><strong>Integration with Barcode Scanning:</strong> Adding support for barcode scanning to streamline the process of adding and managing items in the inventory.</li>
+                            <li><strong>Enhanced Personalization:</strong> Implementing advanced algorithms to further tailor the study experience based on detailed user behavior and feedback, offering even more precise flashcard customization and study plan adjustments.</li>
+                            <li><strong>Gamification:</strong> Introducing game-like elements such as badges, leaderboards, and progress milestones to increase user engagement and motivation, making studying more interactive and enjoyable.</li>
+                            <li><strong>Mobile Application:</strong> Developing dedicated mobile applications for iOS and Android to offer offline access, push notifications, and a more tailored mobile experience for users on the go.</li>
+                            <li><strong>Integration with Educational Platforms:</strong> Adding support for integration with popular educational tools and platforms, such as Google Classroom and Microsoft Teams, to provide a seamless experience for students and educators alike.</li>
                         </ul>
                         <p>
                             <strong>Conclusion:</strong>
                             <br>
-                            Inventory Manager Pro is a testament to the ability to build a full-featured web application using modern development frameworks and tools. The project showcases skills in full-stack development, real-time data handling, responsive design, and user-centric feature development. Through this project, the goal of creating an efficient and intuitive inventory management system has been successfully achieved, with numerous opportunities for future enhancements.
+                            The FlashGenius project showcases the ability to combine modern development frameworks with AI technology to create a personalized and adaptive learning tool. By leveraging real-time data management, secure cloud storage, and responsive design, FlashGenius provides an effective and engaging study experience for users of all backgrounds. With planned future enhancements and integrations, FlashGenius is positioned to become an essential tool in the education technology landscape, continually evolving to meet the needs of its users.
                         
                         <p style="margin-bottom: 5px;">
                             <strong>Source Code</strong>
                         </p>
-                        <a href="https://github.com/Farekhr/inventory-manager" class="github-link" target="_blank">
+                        <a href="https://github.com/Farekhr/FlashGenius" class="github-link" target="_blank">
                             <i class="fab fa-github"></i> View on GitHub
                             
                         </a>
@@ -228,7 +212,7 @@
                         <p style="margin-bottom: 5px; margin-top: 20px;">
                             <strong>Try It Out Yourself!</strong>
                         </p>
-                        <a href="https://inventory-manager-weld.vercel.app/" class="github-link" target="_blank">
+                        <a href="https://flash-genius.vercel.app/flashcards" class="github-link" target="_blank">
                             <i class="fab fa-vercel"></i> Link to Project
                             
                         </a>
@@ -242,7 +226,7 @@
                     </p>
                     <div class="video-container" style="width: 100%; max-width: 900px; margin: 0 auto;">
                         <div class="video-wrapper" style="position: relative; padding-bottom: 84.38%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-                          <iframe src="https://www.youtube.com/embed/M3MovXPjluA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                          <iframe src="https://www.youtube.com/embed/hUeYMqD2piw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
                         </div>
                       </div>
                       
